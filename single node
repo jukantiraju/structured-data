@@ -1,0 +1,29 @@
+#include <stdio.h>
+struct student
+{
+    int code;
+    int fee;
+    struct student *next;
+};
+int main()
+{
+struct student *temp,*head,*newnode;
+head==NULL;
+newnode=(struct student*)malloc(sizeof(struct student));
+int val,val2;
+if(head==NULL)
+{
+    head=newnode;
+    newnode->next=NULL;
+    printf("enter the student fee and code");
+    scanf("%d%d",&val,&val2);
+    
+    newnode->code=val;
+    newnode->fee=val2;
+    printf("%d %d",newnode->code,newnode->fee);
+}
+}
+
+
+
+
